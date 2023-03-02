@@ -1,0 +1,200 @@
+body {
+    background-color: hsl(229, 57%, 11%);
+    transform: none;
+}
+
+.wave-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.div-left {
+    background-color: hsl(228, 56%, 26%);
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    left: 300px;
+    bottom: 310px;
+    z-index: 2;
+    border-radius: 10px 100px 10px 10px;
+
+}
+
+.container1 {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    position: absolute;
+    left: 160px;
+    bottom: 30px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.container3 {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(229, 57%, 11%);
+    position: absolute;
+    left: 95px;
+    bottom: 30px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.document {
+    height: 30px;
+}
+
+.folder{
+    height: 20px;
+}
+
+.upload {
+    height: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    height: 45px;
+}
+
+
+
+
+
+
+.div-right {
+    background-color: hsl(228, 56%, 26%);
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    left: 690px;
+    bottom: 310px;
+    z-index: 2;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.caption {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    color: hsl(243, 100%, 93%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.progress {
+    background-color: hsl(229, 57%, 11%);
+    width: 420px;
+    height: 21px;
+    margin: 70px auto;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.progress-bar {
+    width: 300px;
+    height: 16px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 3px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    text-align: right;
+    position: relative;
+    
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+
+.zero {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    color: hsl(243, 100%, 93%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.thousand{
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    color: hsl(243, 100%, 93%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+
+.comment {
+    background-color: white;
+	height: 25px;
+	width: 25px;
+    position: absolute;
+	right: 40px;
+    top: 20px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%);
+    
+}
+
+.box {
+    background-color: white;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    right: 40px;
+    top: -35px;
+    border-radius: 10px 10px 0px 10px;
+    display: flex;
+
+}
+
+h1 {
+    margin: auto 10px auto 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Gb-left {
+    color: hsl(229, 7%, 55%);
+    font-size: 10px;
+    margin: auto 15px auto 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
